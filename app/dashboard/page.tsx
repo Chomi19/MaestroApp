@@ -30,6 +30,16 @@ export default async function DashboardPage() {
           </Card>
         </Link>
       </div>
+
+      <Link href="/dashboard/schedule">
+        <Card className="hover:shadow-md transition-shadow cursor-pointer">
+          <CardContent className="py-8 text-center">
+            <p className="text-3xl mb-2">📅</p>
+            <p className="font-medium">Schedule</p>
+            <p className="text-sm text-muted-foreground">Weekly lessons</p>
+          </CardContent>
+        </Card>
+      </Link>
     </main>
   )
 }
