@@ -32,6 +32,7 @@ export default function SchedulePage() {
   async function fetchLessons() {
     const res = await fetch(`/api/lessons?start=${weekStart.toISOString()}&end=${weekEnd.toISOString()}`)
     const data = await res.json()
+    console.log("Lessons fetched:", data)
     setLessons(data)
   }
 
