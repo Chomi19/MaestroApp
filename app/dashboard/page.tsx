@@ -40,6 +40,16 @@ export default async function DashboardPage() {
           </CardContent>
         </Card>
       </Link>
+
+      <Link href="/dashboard/payments">
+        <Card className="hover:shadow-md transition-shadow cursor-pointer">
+          <CardContent className="py-8 text-center">
+            <p className="text-3xl mb-2">💰</p>
+            <p className="font-medium">Payments</p>
+            <p className="text-sm text-muted-foreground">Track what you're owed</p>
+          </CardContent>
+        </Card>
+      </Link>
     </main>
   )
 }
