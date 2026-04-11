@@ -156,7 +156,7 @@ export function ReturningDashboard() {
           { href: "/dashboard/students", icon: "👥", label: "Students" },
           { href: "/dashboard/schedule", icon: "📅", label: "Schedule" },
           { href: "/dashboard/payments", icon: "💰", label: "Payments" },
-          { href: "/dashboard/students", icon: "🎵", label: "Repertoire" },
+          { href: "/dashboard/library", icon: "🎵", label: "Library" },
         ].map(item => (
           <Link key={item.label} href={item.href}>
             <Card className="hover:shadow-md transition-shadow cursor-pointer">
